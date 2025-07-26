@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.conatiner{
+  width: 350px;
+  margin: auto;
+  background-color: rgb(113, 156, 237);
+  padding: 6px 40px;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 5px;
+}
+.conatiner h1{
+  text-align: center;
+  margin-top: 5px;
+  color: rgb(6, 46, 120);
+}
+.box{
+  margin: 20px 0;
+}
+.box .day{
+  font-size: 1.5rem;
+  color: aliceblue;
+} 
+.box .day span{
+  font-weight: bold;
+  color: rgb(6, 54, 142);
+}
+.box .message{
+  margin: 10px 0;
+  color: aliceblue;
+}
+.box #dayMessage{
+  margin-left: 40px;
+  color: rgb(5, 37, 96);
+  font-size: 1.2rem;
+}
